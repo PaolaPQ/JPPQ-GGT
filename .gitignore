@@ -1,0 +1,14 @@
+# Files for the ART/Dalvik VM
+*.dex
+
+# Gradle files
+.gradle/
+
+# Intellij Files
+.idea
+
+# Build Files
+build/
+
+# Local configuration file (sdk path, etc)
+local.properties

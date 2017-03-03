@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- base theme -->
+    <style name="Theme.AppTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="android:windowBackground">@color/app_white</item>
+        <item name="actionModeBackground">@color/app_black</item>
+
+        <item name="colorPrimary">@color/app_gray</item>
+        <item name="colorPrimaryDark">@color/app_gray_dark</item>
+        <item name="colorAccent">@color/app_gray</item>
+
+        <item name="colorControlNormal">@color/app_gray_dark</item>
+        <item name="colorControlActivated">@color/app_gray</item>
+        <item name="colorControlHighlight">@color/app_gray</item>
+        <item name="colorSwitchThumbNormal">@color/app_white</item>
+
+        <!-- android:textColorPrimary is the color of the title text in the Toolbar  -->
+        <item name="android:textColorPrimary">@color/app_gray</item>
+        <item name="android:textColorPrimaryInverse">@color/app_gray</item>
+        <item name="android:textColorPrimaryDisableOnly">@color/app_gray_light</item>
+
+        <item name="android:textColorSecondary">@color/app_gray_dark</item>
+        <item name="android:textColorSecondaryInverse">@color/app_white</item>
+
+        <item name="android:textColorTertiary">@color/app_gray_dark</item>
+        <item name="android:textColorTertiaryInverse">@color/app_white</item>
+
+        <item name="android:textColorHint">@color/app_gray_dark</item>
+        <item name="android:textColorHintInverse">@color/app_white</item>
+        <item name="android:textColorHighlight">@color/app_gray_light</item>m>
+
+        <item name="android:textColorLink">@color/app_blue</item>
+    </style>
+
+    <style name="Theme.AppTheme.ActionBar" parent="@style/Theme.AppTheme">
+        <item name="windowActionBar">true</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- blue theme -->
+    <style name="Theme.AppTheme.Blue" parent="@style/Theme.AppTheme">
+        <item name="colorPrimary">@color/app_blue</item>
+        <item name="colorPrimaryDark">@color/app_blue_dark</item>
+        <item name="colorAccent">@color/app_yellow</item>
+        <item name="colorControlActivated">@color/app_yellow</item>
+    </style>
+
+    <style name="Theme.AppTheme.Blue.Prefence" parent="@style/Theme.AppTheme.Blue">
+        <item name="android:textColor">@color/app_blue</item>
+    </style>
+
+</resources>

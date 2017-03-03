@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="jppq.com.project">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".GlobalApplication"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppTheme.Blue"
+        android:allowBackup="true"
+        android:supportsRtl="true">
+
+        <activity android:name=".view.activity.foreground.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".view.activity.foreground.HomeActivity"></activity>
+        <activity android:name=".view.activity.foreground.MenuActivity"></activity>
+        <activity android:name=".view.activity.foreground.DetailActivity"></activity>
+
+        <meta-data android:name="DATABASE" android:value="gtt.db" />
+        <meta-data android:name="VERSION" android:value="1" />
+        <meta-data android:name="QUERY_LOG" android:value="true" />
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="jppq.com.project.model.db" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_images">/GTT/Images/</string>
+    <string name="app_name">Grability Technical Test</string>
+    <string name="app_version">1.0.0</string>
+
+    <string name="app_title_apps">Aplicaciones</string>
+    <string name="app_title_categories">Categorías</string>
+</resources>
